@@ -1,0 +1,119 @@
+/* This is the beginning of the FlexBar portion */
+.nav {
+    background-color: rgb(39,39,39);
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    }
+    
+    .nav-title{
+        margin-left: 2%;
+        width: 50%;
+    justify-content: flex-start;
+    }
+    
+    .nav-links{
+        display:flex;
+        padding: 5px;
+        width: 60%;
+        align-items:center;
+        justify-content:space-evenly;
+        list-style-type: none;  
+        color: aliceblue;
+    
+    }
+    a {
+        color: inherit;
+        text-decoration: none;
+     } 
+    
+     button{
+         background-color: rgb(27, 146, 169);
+         color: aliceblue;
+         box-shadow: 10px 5px 5px black;
+         font-size: inherit;
+     }
+/* This is the end of the FlexBar Portion */
+
+/* This is the beginning of the UserCard Page */
+.container{
+    margin: 10px;
+    padding: 0%;
+    padding-bottom: 2%;
+    border: 3px solid rgb(193, 193, 193);
+    background-color: white;
+    width: 60%;
+}
+
+.blueBar{
+    background-color: rgb(27, 146, 169);
+    height: 20%;
+}
+
+#profilePic {
+    position: relative;
+    margin-left: 3%;
+    top: 25px;
+    width: 14%;
+    height: 110%;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 3px grey;
+}
+
+.profileLocation{
+    margin-left: 10px;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+
+.name{
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 200%;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+img#mapMarker{
+    margin-left: 8px;
+    width: 20px;
+    height: 30px;    
+
+}
+
+#city{
+    margin: 1%;
+font-size:120%;
+font-weight:bold;
+}
+
+p.bio{
+    margin-left: 4%;
+    font-weight: lighter;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.editProfile{
+display: inline;
+align-content: center;
+margin: 1px;
+}
+
+.gear{
+    margin-left: 2.5%;
+    width: 20px;
+    height: 20px;
+    position: relative; 
+    top: 3px;
+}
+a.editLink{
+    margin: 4px;
+    align-content: center;
+    color: blue;
+    text-decoration: underline;
+}
+/* This is the end of the User Card-Profile */
