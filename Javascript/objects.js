@@ -5,3 +5,8 @@ function printMessage(){
 function hoverEvent(){
     console.log("You hovered over me");
 }
+
+
+Hello(){
+    CountQueuingStrateg
+}
