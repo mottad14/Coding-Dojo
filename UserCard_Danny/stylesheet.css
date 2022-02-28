@@ -51,7 +51,6 @@ font-weight:bold;
 }
 
 p{
-    
     margin-left: 4%;
     font-weight: lighter;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
@@ -71,7 +70,7 @@ margin: 1px;
     position: relative; 
     top: 3px;
 }
-a{
+a.editLink{
     margin: 4px;
     align-content: center;
     color: blue;
