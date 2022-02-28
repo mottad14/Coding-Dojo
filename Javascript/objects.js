@@ -8,5 +8,5 @@ function hoverEvent(){
 
 
 Hello(){
-    CountQueuingStrateg
+    console.log(2)
 }
