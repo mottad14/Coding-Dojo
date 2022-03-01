@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Nav Bar</title>
+    <title>Profile Page</title>
 </head>
 <link rel="stylesheet" href="stylesheet.css">
 <body>
@@ -18,17 +18,19 @@
         </ul>
     </div>
 
-    <div class="container">
-        <div class="blueBar">
-            <div class="profilePic">
-                <img id="profilePic" src="/icons/user-circle.png" alt="profile pic">
+    <div class="largestBox">
+        <div class="leftside">
+            <div class="container">
+                <div class="blueBar">
+                    <div class="profilePic">
+                    <img id="profilePic" src="/icons/user-circle.png" alt="profile pic">
+                    </div>
+                </div>
+                <p class="name">Jane Doe</p>
+                <div class="profileLocation">
+                <img id="mapMarker" src="/icons/map-marker.png" alt="mapMarker">
+                <p id="city">Seattle</p>
             </div>
-        </div>
-        <p class="name">Jane Doe</p>
-        <div class="profileLocation">
-            <img id="mapMarker" src="/icons/map-marker.png" alt="mapMarker">
-            <p id="city">Seattle</p>
-        </div>
         
         <div>
         <p class="bio">Developer | Engineer | Problem Solver <br>
@@ -42,8 +44,72 @@
             <a class="editLink" href="FILL IN">edit profile</a>
 
         </div>
-        
     </div>
+        
+    <div class="education">
+        <div class="caption">Education</div>
+        <p class="subtitle">Coding Dojo - Full Stack Bootcamp</p>
+        <p class="subheading">Dec 2019 - March 2020</p>
+        <p class="details">Triple black belt in Python, MERN, and C#...</p>
+    </div>
+</div>
+    
+
+    <div class="sideBar">
+        <div class="topOfSideBar">
+            <div class="caption">Connection Requests</div>
+            <div class="names">
+                <div class="sideBarNames">
+                    <img id="Toddpic" src="/ppl/todd-s.jpg" alt="Todd">
+                    <div id="ContactName">Todd E</div>
+                    <div class="addOrdelButtons">
+                        <img class="addOrdel" src="/icons/accept-circle.png" alt="checkmark">
+                        <img class="addOrdel" src="/icons/close-circle.png" alt="x-mark">
+                    </div>
+                </div>
+                <div class="sideBarNames">
+                    <img id="PhilPic" src="/ppl/phil-s.jpg" alt="Phil">
+                    <div id="ContactName">Phil K</div>
+
+                    <div class="addOrdelButtons">
+                        <img class="addOrdel" src="/icons/accept-circle.png" alt="checkmark">
+                        <img class="addOrdel" src="/icons/close-circle.png" alt="x-mark">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botOfSideBar">
+            <div class="caption">Your Connections</div>
+            <div class="names">
+                <div class="sideBarNames">
+                    <img id="Adrienpic" src="/ppl/adrien-s.jpg" alt="Adrien">
+                    <div id="ContactName">Adrien D</div>
+                </div>
+                <div class="sideBarNames">
+                    <img id="Annepic" src="/ppl/anne-s.jpg" alt="Anne">
+                    <div id="ContactName">Anne J</div>
+                </div>
+                <div class="sideBarNames">
+                    <img id="Alaynepic" src="/ppl/alayne-s.jpg" alt="Alayne">
+                    <div id="ContactName">Alayne S</div>
+                </div>
+                <div class="sideBarNames">
+                    <img id="Arrypic" src="/ppl/arry-s.jpg" alt="Arry">
+                    <div id="ContactName">Arry S</div>
+                </div>
+
+                <div id="viewMore">
+                    <a href="LINKHERE" id="viewMore">View More</a>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
 
     </body>
 </html>

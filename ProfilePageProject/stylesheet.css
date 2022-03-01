@@ -1,4 +1,7 @@
-/* This is the beginning of the FlexBar portion */
+
+/* This is the beginning of the Navigation bar portion */
+
+/* Main container of the nav bar */
 .nav {
     background-color: rgb(39,39,39);
     margin: auto;
@@ -35,27 +38,37 @@
          box-shadow: 10px 5px 5px black;
          font-size: inherit;
      }
-/* This is the end of the FlexBar Portion */
+/* This is the end of the Navigation Bar Portion */
 
 /* This is the beginning of the UserCard Page */
+.largestBox{
+    display: flex;
+}
+.leftside{
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: auto;
+}
+
 .container{
     margin: 10px;
-    padding: 0%;
-    padding-bottom: 2%;
     border: 3px solid rgb(193, 193, 193);
     background-color: white;
-    width: 60%;
+    width: 100%;
+    height: 57%;
+    padding: 1%;
 }
 
 .blueBar{
     background-color: rgb(27, 146, 169);
-    height: 20%;
+    height: 19%;
 }
 
 #profilePic {
     position: relative;
     margin-left: 3%;
-    top: 25px;
+    top: 30px;
     width: 14%;
     height: 110%;
     border: 3px solid white;
@@ -71,7 +84,7 @@
 }
 
 .name{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 3%;
     font-size: 200%;
     font-weight:bold;
@@ -117,3 +130,69 @@ a.editLink{
     text-decoration: underline;
 }
 /* This is the end of the User Card-Profile */
+
+
+/* This is the beginning of the bottom Education bar */
+.education {
+    margin: 10px;
+    padding: 0%;
+    border: 3px solid rgb(193, 193, 193);
+    width: 100%;
+    height: auto;
+}
+
+.caption{
+    background-color: rgb(38, 38, 38);
+    color:aliceblue;
+    padding: 1%;
+    padding-left: 4%;
+    box-shadow: 1px 1px 1px 3px rgb(38, 38, 38);
+}
+
+.sideBar{
+    margin-left: 5%;
+    margin-top: 1.6%;
+    padding: 0%;
+    height: 70%;
+    width: 30%;
+}
+/* .names{
+
+
+} */
+
+.sideBarNames{
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    padding: 5%;
+
+}
+.sideBarNames>img{
+    border: 2px solid black;
+    height: 40px;
+    border-radius: 50%;
+    margin: 1%;
+    flex-direction: row;
+}
+.addOrdelButtons{
+    width: 40%;
+    flex-direction: row;
+}
+.addOrdel{
+    width: 20px;
+}
+
+#ContactName{
+    width: 80px;
+    margin-left: 10px;
+    margin-right: ;
+}
+.topOfSideBar{
+    border: 3px solid black;
+}
+.botOfSideBar{
+    margin-top: 3%;
+    border: 3px solid black;
+}
