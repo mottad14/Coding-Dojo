@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+<body>
+    <div class="container">
+        <div class="topBar">
+            <h1 id="Title">Dojonary</h1>
+            <form action="URL">
+                <input type="text" name="Search" id="searchBar" placeholder="Search">    
+            </form>
+            <button id="logIn" onclick="loggedIn(this)">Login</button>
+        </div>
+
+        <div class="bottomSide">
+            <div class="mainBox">
+                <div class="entryAndDef">
+                    <div class="entryInfo">
+                        <h1 class="entryName">ninja</h1>
+                        <h2 class="italics">noun</h2>
+                        <h3 class="plurality">Plural: <span class="italics">ninjas</span></h3>
+                        <button onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+
+                    <div class="defInfo">
+                        <p>A practitioner skilled in the <span id="link">Japanese</span> art of <span id="link">ninjutsu</span> </p>
+                    </div>
+                </div>
+
+                <div class="entryAndDef" id="bottomEntry">
+                    <div class="entryInfo">
+                        <h1 class="entryName">ninja</h1>
+                        <h2 class="italics">noun</h2>
+                        <h3 class="plurality">Plural: <span class="italics">ninjas</span></h3>
+                        <button onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+
+                    <div class="defInfo">
+                        <p>A <span id="link">programmer</span> who breaks down problems with <span id="link">zen</span>-like focus</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sideBar">
+                <h3 class="sideBarText">Dojonary is defined by <span>YOU</span></h3>
+                <button onclick="removeButton(this)">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

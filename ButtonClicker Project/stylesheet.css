@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    padding: .5%;
+    margin: 2px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 1px black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.topBar{
+    background-color: rgba(185, 184, 184, 0.808);
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    width: 70%;
+}
+
+#searchBar{
+    width: 300px;
+    border: 3px solid black;
+    height: 30px;
+}
+
+#logIn {
+    color: white;
+    background-color:rgb(34, 95, 221);
+}
+
+.bottomSide{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 0%;
+    display: flex;
+}
+
+.mainBox{
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.entryAndDef{
+    margin: 0% auto;
+    margin-left: 0%;
+    margin-bottom: 4%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 90%;
+    height: 200px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+#link{
+    color: blue;
+    text-decoration: underline;
+}
+
+.entryInfo>h3{
+    font-size: small;
+}
+
+.entryInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding:2%;
+    margin-left: 5px;
+}
+
+.entryInfo > button{
+    margin-top: 30%;
+    background-color: rgb(254, 211, 83);
+    width: 75px;
+    height: 20%;
+}
+
+.defInfo{
+    margin-left: 50px;
+    width: 55%;
+    font-size: 3vh;
+}
+
+.sideBar{
+    width: 33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    margin: 0;
+    border: 2px solid black;
+}
+.sideBar span{
+    font-style:unset;
+    font-weight: bolder;
+    text-shadow: 2px;
+}
+
+.sideBar > button{
+    background-color: rgb(131, 187, 106);
+    height: 25%;
+    margin-bottom: 10%;
+}
+
