@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Top navigation bar -->
+        <div class="navbar">
+            <div class="topNav">
+                <div class="topLeft">
+                    <img src="/assets/heart-light.png" alt="heart logo"> 
+                    <p> Pet Shelter</p>
+                </div>
+
+                <div class="topRight">
+                    <h2>Find a Pet</h2>
+                    <h2>About</h2>
+                    <button onclick="donated(this)">Donate</button>
+                </div>
+
+            </div>
+
+            <div class="bottomNav">
+                
+                <div class="leftBottom" > 
+                    
+                        <label for="Looking for">I'm looking for a...</label>
+                        <div class="AnyPetSearch">
+                            <img class="icons" src="/assets/paw-light.png" alt="pawprint">
+                            <select onchange="petSelection(this)" name="petSelect" id="petSelect" placeholder="Any pet">
+                                <option value="" disabled selected>Any Pet</option>
+                                <option value="dog">Dog</option>
+                                <option value="cat">Cat</option>
+                                <option value="dino">Dinosaur</option>
+
+                            </select>
+                        </div>
+                    
+                </div>
+
+                <div class="midBottom">
+                    <label for="area">in or near...</label>
+
+                    <div class="cityZipCodeSearch">
+                        <form action="someActionpage">
+                            <img class="icons" src="/assets/pin-light.png" alt="pin drop">
+                            <input type="text" placeholder="City or Zip Code">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="bottomRight">
+                    <button>Find your new best friend</button>
+                </div>
+
+                
+            </div>
+
+        </div>
+    
+        <!-- Main bottom portion -->
+        <div class="mainBox">
+
+            <div class="contentBox">
+
+                <div class="leftContent">
+                    <img src="/assets/pepper.jpg" alt="Pet Pic">
+                    <div class="petWords">
+                        <h1 class="petName">Pepper</h1>
+                        <h3 class="petDetails">Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</h3>
+                    </div>
+                </div>                
+            
+                <div class="rightContent">
+                    <div class="petCounts">
+                        <p class="counter"> <span id="petted1">6</span> petting(s)</p>
+                        <button onclick="petButton1()">Pet Petter</button>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="contentBox">
+
+                <div class="leftContent">
+                    <img src="/assets/bruce.jpg" alt="Pet Pic">
+                    <div class="petWords">
+                        <h1 class="petName">Bruce</h1>
+                        <h3 class="petDetails">Bruce is a loyal companion. He loves long walks and cold weather.</h3>
+                    </div>
+                </div>                
+            
+                <div class="rightContent">
+                    <div class="petCounts">
+                        <p class="counter"> <span id="petted2">5</span> petting(s)</p>
+                        <button onclick="petButton2()">Pet Petter</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contentBox">
+
+                <div class="leftContent">
+                    <img src="/assets/oscar.jpg" alt="Pet Pic">
+                    <div class="petWords">
+                        <h1 class="petName">Oscar</h1>
+                        <h3 class="petDetails">Oscar is bright, energetic and friendly. He is looking for a good home.</h3>
+                    </div>
+                
+                </div>                
+            
+                <div class="rightContent">
+                    <div class="petCounts">
+                        <p class="counter"> <span id="petted3">8</span> petting(s)</p>
+                        <button onclick="petButton3()">Pet Petter</button>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

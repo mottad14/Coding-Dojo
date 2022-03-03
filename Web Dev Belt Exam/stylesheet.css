@@ -1,0 +1,153 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+/* Main area content */
+.container, .navbar, .mainBox, .contentBox, .topNav, .bottomNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+/* Navigation Bar */
+.navbar{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(24, 139, 140);
+    color: white;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.topNav{
+    flex-direction: row;
+    width: 100%;    
+}
+
+.topLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 40%;
+    margin-left: 10%;
+    font-size: 4.25vh;
+}
+
+.topLeft>img{
+    width: 40px;
+    margin-right: 2%;
+}
+
+.topRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.bottomNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+.leftBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ICONS AND BUTTONS */
+
+/* Donate button */
+.topRight>button{
+    width: 20%;
+    height: 30px;
+    color: rgb(133, 0, 254);
+    background-color: white;
+    border: 3px solid rgb(133, 0, 254);
+    border-radius: 40%;
+    font-size: large;
+}
+
+/* Find your new bestie  */
+.bottomRight>button{
+    background-color: rgb(133, 0, 254);
+    color: white;
+    padding: 2%;
+    width: 120%;
+    box-shadow: 3px 2px 1px 3px black;}
+
+.icons{
+    height: 30px;
+}
+
+
+
+/* Bottom Area of Content */
+
+.mainBox{
+    height: 80%;
+    flex-direction: column;
+    width: 75%;
+}
+
+.contentBox{
+    margin-bottom: 2%;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10%;
+    height: 180px;
+}
+
+.leftContent{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    width: 70%;
+}
+
+.petWords>h1, .petWords>h3{
+    margin-left: 3%;
+    font-weight:lighter;
+}
+
+.leftContent>img{
+    width: 100px;
+}
+
+.rightContent{
+    display: flex;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.petCounts{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+
+.petCounts>button{
+    background-color: rgb(30, 198, 198);
+    color: white;
+    padding: 2%;
+    width: 200px;
+    box-shadow: 3px 2px 1px 3px black;}
