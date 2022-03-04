@@ -34,4 +34,3 @@ function flatten(arr2d){
 
 var result = flatten(square);
 console.log(result); //should print out 2,5,8,3,6,1,5,7,7
-
